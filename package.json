@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-pragmatic-deprecate",
+  "version": "0.0.0",
+  "description": "let's you decprecate and refactor code step by step: 1. deprecate functions, constants, class etc 2. disable the use for these deprecated functions in future 3. refactor sensibly",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Bhaskar",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
